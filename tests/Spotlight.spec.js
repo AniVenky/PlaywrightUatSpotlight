@@ -28,6 +28,7 @@ const page = await context.newPage();
   await page.getByLabel('* Post code:').click();
   await page.getByLabel('* Post code:').fill('1212');
   await page.getByLabel('* Password:').click();
+  //
   await page.getByLabel('* Password:').fill('Anila12');
   await page.getByLabel('* Confirm password:').click();
   await page.getByLabel('* Confirm password:').fill('Anila12');
