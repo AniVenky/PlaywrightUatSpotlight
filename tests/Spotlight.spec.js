@@ -17,7 +17,7 @@ const page = await context.newPage();
   await page.locator(".js-header-popover").hover();
   await page.locator('a[title="Sign up!"]').click();
   await page.getByLabel('* Email address / login:').click();
-  await page.getByLabel('* Email address / login:').fill('test28@yopmail.com');
+  await page.getByLabel('* Email address / login:').fill('test11@yopmail.com');
   await page.getByRole('button', { name: 'Submit' }).click();
   await page.getByLabel('* First name:').click();
   await page.getByLabel('* First name:').fill('test');
